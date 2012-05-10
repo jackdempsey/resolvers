@@ -7,11 +7,11 @@ require "resolvers/version"
 Gem::Specification.new do |s|
   s.name        = "resolvers"
   s.version     = Resolvers::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Resolvers."
-  s.description = "TODO: Description of Resolvers."
+  s.authors     = ["Jack Dempsey"]
+  s.email       = ["jack.dempsey@gmail.com"]
+  s.homepage    = "http://github.com/jackdempsey/resolvers"
+  s.summary     = "A collection of custom Rails 3 View Resolvers"
+  s.description = "A collection of custom Rails 3 View Resolvers"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
