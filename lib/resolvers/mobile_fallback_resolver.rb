@@ -1,4 +1,6 @@
 module Resolvers
+  # this resolver graciously shared by jdelStrother at
+  # https://github.com/rails/rails/issues/3855#issuecomment-5028260
   class MobileFallbackResolver < ::ActionView::FileSystemResolver
     def find_templates(name, prefix, partial, details)
       if details[:formats] == [:mobile]
